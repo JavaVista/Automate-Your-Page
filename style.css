@@ -1,0 +1,73 @@
+﻿/* Javi's Stage 2 Submission */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+.page {
+  margin: auto;
+  max-width: 800px;
+  height: auto;
+  background-color: #8797a9;
+  border-style: double;
+  border-width: 50px;
+  border-radius: 0em 4em 0em 4em;
+  border-color: #907A48;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+h1 {
+  font-size: 36px;
+  text-align: center;
+  background-color: #907A48;
+}
+h2 {
+  background-color: #7F7087;
+  color: #ffffff;
+}
+  /* Use font-family to change the font. The browser will use 'arial' as the font and will use sans-serif if the computer does not have 'arial'. It's good practice to allow computers to render the text */
+.title {
+  font-family: Impact, Charcoal, sans-serif;
+}
+p {
+  border-color: #4C5671;
+  border-style: double;
+  padding: 15px;
+  border-style: solid;
+  border-radius: 0em 3em 0em 3em;
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.description {
+	max-width: 705px;
+}
+/* The 0 refers to the top and bottom margins and the "auto" */
+body {
+	padding: 20px 10px;
+	max-width: 2000px;
+	margin: 0 auto; 
+	font-size: 1em;
+	background-color: #c3cbd4;
+}  
+.heading {
+	text-align: center;
+	font-size: 20px;
+}
+.img {
+	float: none;
+  text-align: center;
+} 
+img {
+    width: 70%;
+    height: auto;
+}
+em {
+    color: #3f3843;
+}
+span {  
+    font-family: Courier;
+    background-color: #BBBBBB;
+    padding: 1px 1px;
+    font-weight: bold;
+}
